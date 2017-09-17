@@ -22,7 +22,6 @@
 		E219FB041E534AF8006D9CFC /* FacetCategoryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E219FB031E534AF8006D9CFC /* FacetCategoryCell.swift */; };
 		E219FB441E56F4C9006D9CFC /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = E219FB431E56F4C9006D9CFC /* Constants.swift */; };
 		E2B256781EF42C3700E10D23 /* TypeFacetTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2B256771EF42C3700E10D23 /* TypeFacetTableViewController.swift */; };
-		E2B2567B1EF4325C00E10D23 /* CosmosViewWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2B2567A1EF4325C00E10D23 /* CosmosViewWidget.swift */; };
 		E2B2567E1EF436AF00E10D23 /* RatingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2B2567D1EF436AF00E10D23 /* RatingViewController.swift */; };
 		E2B256811EF43C8200E10D23 /* LayoutHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2B256801EF43C8200E10D23 /* LayoutHelpers.swift */; };
 		E2B256831EF43FC900E10D23 /* RangeSliderWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2B256821EF43FC900E10D23 /* RangeSliderWidget.swift */; };
@@ -76,7 +75,6 @@
 		E219FB031E534AF8006D9CFC /* FacetCategoryCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FacetCategoryCell.swift; sourceTree = "<group>"; };
 		E219FB431E56F4C9006D9CFC /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		E2B256771EF42C3700E10D23 /* TypeFacetTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TypeFacetTableViewController.swift; sourceTree = "<group>"; };
-		E2B2567A1EF4325C00E10D23 /* CosmosViewWidget.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CosmosViewWidget.swift; sourceTree = "<group>"; };
 		E2B2567D1EF436AF00E10D23 /* RatingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RatingViewController.swift; sourceTree = "<group>"; };
 		E2B256801EF43C8200E10D23 /* LayoutHelpers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LayoutHelpers.swift; sourceTree = "<group>"; };
 		E2B256821EF43FC900E10D23 /* RangeSliderWidget.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RangeSliderWidget.swift; sourceTree = "<group>"; };
@@ -226,7 +224,6 @@
 		E2B256791EF4324900E10D23 /* CustomWidgets */ = {
 			isa = PBXGroup;
 			children = (
-				E2B2567A1EF4325C00E10D23 /* CosmosViewWidget.swift */,
 				E2B256821EF43FC900E10D23 /* RangeSliderWidget.swift */,
 			);
 			name = CustomWidgets;
@@ -562,7 +559,6 @@
 				E2B256781EF42C3700E10D23 /* TypeFacetTableViewController.swift in Sources */,
 				E2B256851EF4412E00E10D23 /* RangeSliderViewController.swift in Sources */,
 				E2B2567E1EF436AF00E10D23 /* RatingViewController.swift in Sources */,
-				E2B2567B1EF4325C00E10D23 /* CosmosViewWidget.swift in Sources */,
 				E219FAE01E49F982006D9CFC /* TopBarView.swift in Sources */,
 				E219FAA41E4382B2006D9CFC /* ItemTableViewController.swift in Sources */,
 				E219FB041E534AF8006D9CFC /* FacetCategoryCell.swift in Sources */,

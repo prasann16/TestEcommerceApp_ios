@@ -16,7 +16,7 @@ class ItemCell: UITableViewCell {
     @IBOutlet weak var nameLabel: UILabel!
     @IBOutlet weak var priceLabel: UILabel!
     @IBOutlet weak var typeLabel: UILabel!
-    @IBOutlet weak var ratingView: CosmosView!
+//    @IBOutlet weak var ratingView: CosmosView!
     
     static let placeholder = UIImage(named: "placeholder")
     
@@ -36,11 +36,11 @@ class ItemCell: UITableViewCell {
                 priceLabel.text = "$\(String(describing: price))"
             }
             
-            ratingView.settings.updateOnTouch = false
-            if let rating = item.rating {
-                ratingView.rating = Double(rating)
-            }
-            
+//            ratingView.settings.updateOnTouch = false
+//            if let rating = item.rating {
+//                ratingView.rating = Double(rating)
+//            }
+//            
             itemImageView.cancelImageDownloadTask()
             
             if let url = item.imageUrl {

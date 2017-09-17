@@ -39,19 +39,19 @@
                                                     <rect key="frame" x="8" y="8" width="94" height="93.5"/>
                                                 </imageView>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="751" text="Name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bxu-k3-laa">
-                                                    <rect key="frame" x="114" y="8" width="253" height="23"/>
+                                                    <rect key="frame" x="114" y="8" width="253" height="24"/>
                                                     <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="252" verticalCompressionResistancePriority="752" text="Type" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ahu-Vz-ry0">
-                                                    <rect key="frame" x="114" y="31" width="253" height="14.5"/>
+                                                    <rect key="frame" x="114" y="32" width="253" height="14.5"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="12"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="252" verticalCompressionResistancePriority="753" text="Price" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6cw-vH-Ytu">
-                                                    <rect key="frame" x="114" y="53.5" width="60" height="18"/>
+                                                    <rect key="frame" x="114" y="54.5" width="60" height="18"/>
                                                     <constraints>
                                                         <constraint firstAttribute="width" constant="60" id="K7F-qC-cVw"/>
                                                     </constraints>
@@ -59,25 +59,10 @@
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
-                                                <view contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="qmS-bw-fen" customClass="CosmosView" customModule="Cosmos">
-                                                    <rect key="frame" x="110" y="79.5" width="100.5" height="0.0"/>
-                                                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                                    <constraints>
-                                                        <constraint firstAttribute="width" constant="100.5" id="tcK-8t-Tgn"/>
-                                                    </constraints>
-                                                    <userDefinedRuntimeAttributes>
-                                                        <userDefinedRuntimeAttribute type="number" keyPath="starMargin">
-                                                            <real key="value" value="0.10000000000000001"/>
-                                                        </userDefinedRuntimeAttribute>
-                                                    </userDefinedRuntimeAttributes>
-                                                </view>
                                             </subviews>
                                             <constraints>
-                                                <constraint firstItem="qmS-bw-fen" firstAttribute="leading" secondItem="X2m-F2-JUW" secondAttribute="trailing" constant="8" id="2xO-Qk-tYe"/>
                                                 <constraint firstItem="6cw-vH-Ytu" firstAttribute="leading" secondItem="X2m-F2-JUW" secondAttribute="trailing" constant="12" id="4vb-8s-Lu7"/>
                                                 <constraint firstItem="bxu-k3-laa" firstAttribute="leading" secondItem="X2m-F2-JUW" secondAttribute="trailing" constant="12" id="5ev-fx-xjX"/>
-                                                <constraint firstAttribute="bottomMargin" secondItem="qmS-bw-fen" secondAttribute="bottom" constant="22" id="8dU-n5-fbG"/>
-                                                <constraint firstItem="qmS-bw-fen" firstAttribute="top" secondItem="6cw-vH-Ytu" secondAttribute="bottom" constant="8" id="Dgb-JO-fd0"/>
                                                 <constraint firstItem="Ahu-Vz-ry0" firstAttribute="top" secondItem="bxu-k3-laa" secondAttribute="bottom" id="Ee4-gf-Kf4"/>
                                                 <constraint firstAttribute="trailingMargin" secondItem="bxu-k3-laa" secondAttribute="trailing" id="Sk5-tX-GTB"/>
                                                 <constraint firstAttribute="leadingMargin" secondItem="X2m-F2-JUW" secondAttribute="leading" id="U1L-LK-EtR"/>
@@ -94,7 +79,6 @@
                                             <outlet property="itemImageView" destination="X2m-F2-JUW" id="THO-g6-7Q3"/>
                                             <outlet property="nameLabel" destination="bxu-k3-laa" id="zfP-oF-inA"/>
                                             <outlet property="priceLabel" destination="6cw-vH-Ytu" id="SDw-kH-9HQ"/>
-                                            <outlet property="ratingView" destination="qmS-bw-fen" id="vGo-h3-kdj"/>
                                             <outlet property="typeLabel" destination="Ahu-Vz-ry0" id="PR0-fG-JZW"/>
                                         </connections>
                                     </tableViewCell>
