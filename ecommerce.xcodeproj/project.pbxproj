@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		47BE6C0C67B9C51881F502E6 /* Pods_ecommerce.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD4E63DA74F493C2E0ACD2B5 /* Pods_ecommerce.framework */; };
+		7DA6E3461F6E22DE003D702F /* ProductData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DA6E3451F6E22DE003D702F /* ProductData.swift */; };
 		E219FAA21E4382B2006D9CFC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E219FAA11E4382B2006D9CFC /* AppDelegate.swift */; };
 		E219FAA41E4382B2006D9CFC /* ItemTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E219FAA31E4382B2006D9CFC /* ItemTableViewController.swift */; };
 		E219FAA71E4382B2006D9CFC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E219FAA51E4382B2006D9CFC /* Main.storyboard */; };
@@ -49,6 +50,7 @@
 
 /* Begin PBXFileReference section */
 		55BF22BD498A60F8914D1E74 /* Pods-ecommerceUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ecommerceUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ecommerceUITests/Pods-ecommerceUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		7DA6E3451F6E22DE003D702F /* ProductData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductData.swift; sourceTree = "<group>"; };
 		9A716D6C39742184A7A37A33 /* Pods_ecommerceUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ecommerceUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9EC5F93DE8716F3E9C97AADE /* Pods_ecommerceTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ecommerceTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AD4E63DA74F493C2E0ACD2B5 /* Pods_ecommerce.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ecommerce.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -217,6 +219,7 @@
 			isa = PBXGroup;
 			children = (
 				E219FAD71E44C710006D9CFC /* ItemRecord.swift */,
+				7DA6E3451F6E22DE003D702F /* ProductData.swift */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -554,6 +557,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E219FAE21E4A1E16006D9CFC /* FacetTableViewController.swift in Sources */,
+				7DA6E3461F6E22DE003D702F /* ProductData.swift in Sources */,
 				E219FADA1E44DB20006D9CFC /* ItemCell.swift in Sources */,
 				E219FAD81E44C710006D9CFC /* ItemRecord.swift in Sources */,
 				E2B256781EF42C3700E10D23 /* TypeFacetTableViewController.swift in Sources */,

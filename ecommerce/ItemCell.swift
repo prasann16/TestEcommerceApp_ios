@@ -20,20 +20,22 @@ class ItemCell: UITableViewCell {
     
     static let placeholder = UIImage(named: "placeholder")
     
-    var item: ItemRecord? {
+    var item: ProductData? {
         didSet {
             guard let item = item else { return }
             
             nameLabel.highlightedText = item.name_highlighted
             nameLabel.highlightedTextColor = UIColor.black
             nameLabel.highlightedBackgroundColor = ColorConstants.lightYellowColor
-            typeLabel.highlightedText = item.type_highlighted
-            typeLabel.highlightedTextColor = UIColor.black
-            typeLabel.highlightedBackgroundColor = ColorConstants.lightYellowColor
+//            typeLabel.highlightedText = item.type_highlighted
+//            typeLabel.highlightedTextColor = UIColor.black
+//            typeLabel.highlightedBackgroundColor = ColorConstants.lightYellowColor
             
-            
+//            print(item.price)
             if let price = item.price {
-                priceLabel.text = "$\(String(describing: price))"
+//                priceLabel.text = "$\(String(describing: price))"
+//                print(price)
+                priceLabel.text = price
             }
             
 //            ratingView.settings.updateOnTouch = false

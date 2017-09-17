@@ -40,7 +40,7 @@ class ItemTableViewController: UIViewController, UITableViewDelegate, HitsTableV
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath, containing hit: [String : Any]) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "recordCell", for: indexPath) as! ItemCell
         
-        cell.item = ItemRecord(json: hit)
+        cell.item = ProductData(json: hit)
         cell.backgroundColor = ColorConstants.tableColor
         
         return cell

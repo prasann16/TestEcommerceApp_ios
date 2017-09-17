@@ -12,9 +12,9 @@ import InstantSearch
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
-    private let ALGOLIA_APP_ID = "latency"
-    private let ALGOLIA_INDEX_NAME = "ikea"
-    private let ALGOLIA_API_KEY = Bundle.main.infoDictionary!["AlgoliaApiKey"] as! String
+    private let ALGOLIA_APP_ID = "HGQJBEYFM1"
+    private let ALGOLIA_INDEX_NAME = "Products"
+//    private let ALGOLIA_API_KEY = Bundle.main.infoDictionary!["2d8d1f6517b669bd4ea3931f8bed2ce1"] as! String
     
     var window: UIWindow?
 
@@ -23,8 +23,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         UIApplication.shared.statusBarStyle = .lightContent
         
         // Override point for customization after application launch.
-        InstantSearch.shared.configure(appID: ALGOLIA_APP_ID, apiKey: ALGOLIA_API_KEY, index: ALGOLIA_INDEX_NAME)
-        InstantSearch.shared.searcher.params.attributesToHighlight = ["name", "category", "type"]
+        InstantSearch.shared.configure(appID: ALGOLIA_APP_ID, apiKey: "2d8d1f6517b669bd4ea3931f8bed2ce1", index: ALGOLIA_INDEX_NAME)
+        InstantSearch.shared.searcher.params.attributesToHighlight = ["productName"]
+//        InstantSearch.shared.searcher.params.attributesToHighlight = ["name", "category", "type"]
         
         return true
     }

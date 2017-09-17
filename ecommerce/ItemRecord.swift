@@ -35,9 +35,9 @@ struct ItemRecord {
     }
     
     
-    var rating: Int? {
-        return json["rating"] as? Int
-    }
+//    var rating: Int? {
+//        return json["rating"] as? Int
+//    }
     
     var imageUrl: URL? {
         guard let urlString = json["image"] as? String else { return nil }
